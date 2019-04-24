@@ -1,0 +1,374 @@
+*{
+	box-sizing: border-box;
+}
+
+
+header{
+	padding: 25px;
+	text-align: center;
+	background-color: #579A9E;
+	color: #F5F5F5;
+}
+/*Styling the login and sign up forms*/
+.signup-form{ 
+  width:300px
+  margin:0 auto;
+  padding-top:30px;
+  margin-left:40px;
+}
+/*styling input areas on forms*/
+.signup-form input { 
+  width:70%;
+  height:40px;
+  border:none;
+  background-color:#DCDCDC;
+  font-size:17px;
+  padding:0px 5%;
+  line-height:40px;
+  margin-bottom:3px;
+}
+/*styling button*/
+.signup-form button { 
+  display: block;
+  width:30%;
+  height:40px;
+  border: none;
+  background-color:#222;
+  font-size:17px;
+  cursor:pointer;
+  color:white;
+}
+.signup-form button:hover { 
+  background-color:grey;
+}
+/*text styling when user signs up*/
+#RegisterSuccess{
+ text-align:center;
+}
+.txt1{
+  text-indent:100px;
+  font-weight:40px;
+}
+#txt2{
+  font-weight:45px;
+  text-align:center;
+}
+/*header in user page*/
+.userHeading{
+  text-indent:65px;
+  width:45%;
+  font-size:25px;
+}
+/*text on user page*/
+#utxt{
+  text-indent:25px;
+  color:black;
+  text-align:left;
+}
+/*image on user page*/
+.userimg{
+  float:right;
+  margin-right:100px;
+  height:350px;
+  width:320px;
+}
+/*positioning and styling link for edit info page*/
+#editinfo{
+  margin-left:1000px;
+  font-size:22px;
+  font-weight:700;
+}
+/*stylink edit link*/
+#editinfo a{
+  text-decoration:none;
+  color:black;
+}
+#editinfo a:hover{
+  color:#DF5A27;
+}
+.usertxt{
+  width:48%;
+}
+
+body{
+	margin:0;
+}
+
+/*Styles the nav bar*/
+nav { 
+	padding:25px 30px 30px;
+	background-color: #3F6B74;
+	color: #F5F5F5;
+	margin: 0;
+}
+nav  a {
+    color: white;
+    text-align: center;
+	  padding:7px 50px ;
+    text-decoration: none;
+	  float: left;
+}
+nav a:hover{
+	background-color:#DF5A27;
+ 
+}
+/*styling and positioning image and text on starterscreen page*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+	position:absolute;
+	top:50%;
+	left:10%;
+	color:black;
+	font-size: 42px;
+}
+section{
+	text-align: center;
+	float:center;
+	Position:relative;
+	left:400px
+
+}
+.middle{
+	width:40%;
+  
+}
+/*positioning text on home page*/
+#TextA, #TextB{
+	text-indent:50px;
+}
+/*positioning images on home page*/
+#Tom,#Mary,#Rory,#Colin{
+	float:right;
+}
+/*allowing images to float to right of tour descriptions and for text to flow underneath images*/
+.clearfix{
+	overflow:auto;
+	width:90%;
+}
+.description{
+	width:80%;
+}
+/*positioning text on tours page*/
+#tour1,#tour2,#tour3,#tour4{
+	text-indent:50px;
+}
+/*styling of form on reservations page*/
+input, textarea {
+	width: 20em;
+	text-align: left;
+	margin-bottom: 0.5em;
+}
+
+textarea {
+	width: 20em;
+	text-align: left;
+	margin-bottom: 0.5em;
+	vertical-align: top;
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+	padding-top: 0.2em;
+	width: 8em;
+}
+
+input[type=submit]{
+    background-color: #DF5A27;
+	text-align: center;
+	width: 90px;
+	height:50px;
+	margin-bottom:65px;
+}
+.form_container{ 
+	padding:80px:
+}
+.ReservationsBody{
+	text-align:center;
+	padding:10px;
+}
+.BookingText{
+	text-align:center;
+}
+#Confirmation{
+	color:#DF5A27;
+}
+/*styling the prices table*/
+table{
+	width:40%;
+	border-collapse:collapse;
+	margin:auto;
+}
+th,td{
+	text-align:left;
+	padding:10px;
+	border:3px solid;
+}
+/*styling the top row of each table*/
+.top1{
+	background-color:#DF5A27;
+	color:black;
+	border-top: 5px solid black;
+	border-bottom:5px solid black;
+	text-align:center;
+}
+#CompanyLogo{
+	float:right;
+	padding:100px;
+}
+/*article on contact us page*/
+article{
+	text-align:center;
+	padding:70px;
+	color:#DF5A27;
+	font-size:32px;
+}
+dl,p{
+	font-size: 20px;
+	text-indent:40px;
+}
+#Location{
+	padding:60px;
+}
+/*styling the collapsible*/
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 25px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color:#F5F5F5;
+}
+/*this adds a button to the collapsible*/
+.collapsible:after {
+  content: '\002B';
+  color: #DF5A27;
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212";
+}
+/*styling the answers to the questions*/
+.content {
+  padding: 0 25px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  font-size:22px;
+  width:50%;
+}
+#FAQ{
+	text-indent:25px;
+}
+#Reservationstxt{
+  text-align:center;
+}
+#reviewtxt{
+  text-align:center;
+}
+.ReviewPic{
+  height:200px;
+  width:100%;
+}
+/*text area for username in reviews page*/
+#reviewsuid{
+  width:600px;
+  height:30px;
+  background-color:#DCDCDC;
+  resize:none;
+  margin-left:30px;
+  text-indent:5px;
+}
+/*comment text area in reviews page*/
+#reviewstextarea{
+  width:600px;
+  height:80px;
+  background-color:#DCDCDC;
+  resize:none;
+  margin-left:30px;
+}
+/*comment button*/
+#reviewSubmit{
+  width:100px;
+  height:30px;
+  background-color:#A9A9A9;
+  border:none;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+  margin-left:30px;
+}
+#reviewSubmit:hover{
+  background-color:#778899;
+}
+/*table in reviews section*/
+#reviewtable{
+  margin-left:30px;
+  border-collapse:collapse;
+  border:3px solid;
+  width:75%;
+}
+/*keeping the edit username form the same style as the login and sign up forms for consistency*/
+.editForm{ 
+  width:300px
+  margin:0 auto;
+  padding-top:90px;
+  margin-left:40px;
+}
+.editForm input { 
+  width:35%;
+  height:40px;
+  border:none;
+  background-color:#DCDCDC;
+  font-size:17px;
+  padding:0px 5%;
+  line-height:40px;
+  margin-bottom:3px;
+}
+.editForm button { 
+  display: block;
+  width:30%;
+  height:40px;
+  border: none;
+  background-color:#222;
+  font-size:17px;
+  cursor:pointer;
+  color:white;
+}
+.editForm button:hover { 
+  background-color:grey;
+}
+#edittxt{
+  text-align:center;
+}
+
+footer{ 
+	padding:18px;
+	background-color:#579A9E;
+	color:#F5F5F5;
+	text-align: right;
+	margin:0;
+}
+@media (max-width: 750px) {
+	width: 100%;
+	}
+}
+
+
+
+
+
